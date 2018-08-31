@@ -1,0 +1,77 @@
+/*== start style sheet ==*/
+
+/*== start header ==*/
+header{
+    background-image: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0 20px 0;
+}
+.logo{margin-bottom: 80px;}
+.idown{font-size: 40px;}
+/*== end header ==*/
+
+/*== start Benfits ==*/
+.Benfits{margin: 50px 0;}
+.hBenfit{margin-bottom: 30px}
+/*== end Benfits ==*/
+
+/*== start Galery ==*/
+.glry-cont {position: relative; cursor: pointer;}
+.overlay {
+  	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 98.3%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #000;
+}
+.glry-cont:hover .overlay {opacity: .8;}
+.add_circle {
+	color: white;
+	font-size: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+/*== end Galery ==*/
+
+/*== start portfolio*/
+.quotCircle{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #888;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+#qout-two, #qout-three, #qout-four{display: none;}
+.active{background-color: #888;}
+/*== end portfolio*/
+
+/*== start Clients ==*/
+.Client:hover{
+	-webkit-filter: brightness(0);
+	-o-filter: brightness(0);
+	filter: brightness(0);
+	transition: 2.5s;
+}
+/*== end  Clients ==*/
+
+/*== General classes ==*/
+.bold{font-weight: bold}
+.NoPadding{padding: 0px !important;}
+.NoMargin{margin: 0px}
+.img-heigh{height: 340px !important}
+.inline-block{display: inline-block;}
+.pointer-cursor{cursor: pointer;}
+
+/*== end style sheet ==*/
